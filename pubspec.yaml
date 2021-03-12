@@ -28,6 +28,23 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.0
+  cached_network_image: ^2.0.0-rc
+    # cupertino_icons: ^0.1.3
+  # flutter_login: ^1.0.14
+  # record_mp3: ^2.0.0
+  # permission_handler: ^5.0.1+1
+  # path_provider: ^1.6.11
+  # audioplayer: ^0.8.1
+  # stop_watch_timer: ^0.5.0
+  # firebase_core: ^0.4.5
+  # firebase_auth: ^0.16.1
+  # cloud_firestore: ^0.13.7
+  # modal_progress_hud: ^0.1.3
+  # animated_text_kit: ^2.2.0
+
+  # firebase_core: ^0.4.4
+  # firebase_auth: ^0.16.0
+  # cloud_firestore: ^0.13.5
           # image_picker: ^0.6.1+3
          #image_picker: ^0.6.4
          # image: ^3.1.0
@@ -46,8 +63,10 @@ flutter:
   # included with your application, so that you can use the icons in
   # the material Icons class.
   uses-material-design: true
-   assets:
-    - assets/images/
+  #assets:
+    # - images/graduation.png
+    # -images/graduation.png
+     
 
  #assets:
         # - assets/images/
@@ -77,17 +96,17 @@ flutter:
   # "family" key with the font family name, and a "fonts" key with a
   # list giving the asset and other descriptors for the font. For
   # example:
-   fonts:
-      - family: Schyler
-      fonts:
-         - asset: fonts/Schyler-Regular.ttf
-        - asset: fonts/Schyler-Italic.ttf
-          style: italic
-    - family: Trajan Pro
-     fonts:
-        - asset: fonts/TrajanPro.ttf
-         - asset: fonts/TrajanPro_Bold.ttf
-           weight: 700
+  # fonts:
+  #   - family: Schyler
+  #   - asset: fonts/Schyler-Regular.ttf
+  #   - asset: fonts/Schyler-Italic.ttf
+  #   - asset: fonts/TrajanPro.ttf
+  #   - asset: fonts/TrajanPro_Bold.ttf
+  #     weight: 700
+  #     style: italic
+  #   - family: Trajan Pro
+    
+      
   
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages

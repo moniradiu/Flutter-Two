@@ -48,7 +48,7 @@ class MyApp3 extends StatelessWidget {
                 //   package: 'shrine_images',
                 // ),
                 child: Image.asset(
-                  "assets/images/graduation.png",
+                  "images/graduation.png",
                   width: 600.0,
                   height: 240.0,
                   fit: BoxFit.cover,
